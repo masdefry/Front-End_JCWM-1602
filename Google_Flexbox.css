@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* .header .menu-satu{
+    margin-right: 30px;
+} */
+
+.header .menu-dua{
+    margin: 0px 30px;
+}
+
+.content{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    right: 0px;
+}
+
+.footer .menu-footer{
+    display: flex;
+    justify-content: space-between;
+}
