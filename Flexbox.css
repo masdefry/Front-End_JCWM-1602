@@ -1,0 +1,26 @@
+.box-size{
+    height: 100px;
+    border: 1px solid brown;
+}
+
+.box-container-satu{
+    display: flex;
+}
+
+.box-container-dua{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+.box-satu{
+    flex: 1;
+}
+
+.box-dua{
+    flex: 5;
+}
+
+.box-tiga{
+    flex: 1;
+}

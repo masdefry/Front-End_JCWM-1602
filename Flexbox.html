@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link href="Flexbox.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <h1>Flexbox Layouting</h1>
+    <h1>Flex Direction : Row (By Default)</h1>
+    <div class="box-container-satu">
+        <div class="box-size box-satu">Box-1</div>
+        <div class="box-size box-dua">Box-2</div>
+        <div class="box-size box-tiga">Box-3</div>
+    </div>
+
+    <h1>Flex Direction : Column</h1>
+    <div class="box-container-dua">
+        <div class="box-size box-satu">Box-1</div>
+        <div class="box-size box-dua">Box-2</div>
+        <div class="box-size box-tiga">Box-3</div>
+    </div>
+
+    <h1>Justify-Content, Align-Items, Align-Self</h1>
+    <p>
+        Justify content & align items tergantung flex direction.
+        Apabila flex direction row, maka justify-content menentukan posisi secara x & align-items menentukan posisi secara y.
+        Apabila flex direction column, maka justify-content menentukan posisi secara y & align-items menentukan posisi secara x.
+    </p>
+    <div style="height: 500px; background-color: burlywood; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+    </div>
+
+    <h1>Flex Wrap</h1>
+    <div style="height: 300px; background-color: burlywood; display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+        <div style="width: 100px; height: 100px; border: 3px solid crimson;"></div>
+    </div>
+</body>
+</html>

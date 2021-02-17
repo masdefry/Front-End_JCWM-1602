@@ -1,4 +1,10 @@
 - Box Model
-    - Margin
-    - Border
-    - Padding
+    - Margin : Untuk memberikan jarak antar komponen
+    - Border : Garis yang membungkus konten & padding
+    - Padding : Jarak antara content dengan border
+- Position
+    - Relative
+    - Absolute
+    - Fixed
+    - Sticky
+- Flexbox
