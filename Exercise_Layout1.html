@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Navigation Layout</title>
+    <style>
+        .container{
+            border: 1px solid black;
+            display: flex;
+            height: 100vh;
+        }
+
+        .sidebar{
+            border: 1px solid red;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 30px;
+        }
+
+        .content{
+            border: 1px solid blue;
+            flex: 3;
+            padding-left: 30px;
+        }
+
+        .item{
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Sidebar Navigation Layout
+    </h1>
+    <div class="container">
+        <div class="sidebar">
+            <div class="item">
+                Link #1
+            </div>
+            <div class="item">
+                Link #2
+            </div>
+            <div class="item">
+                Link #3
+            </div>
+        </div>
+        <div class="content">
+            <h1>
+                Sidebar Navigation Layout
+            </h1>
+            <h2>
+                Paragraf 1
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem necessitatibus consectetur modi veniam iusto! Blanditiis perferendis veniam dolorem commodi, iure illum dolor mollitia ducimus rerum rem reiciendis minus itaque vitae?
+            </p>
+            <h2>
+                Paragraf 2
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem necessitatibus consectetur modi veniam iusto! Blanditiis perferendis veniam dolorem commodi, iure illum dolor mollitia ducimus rerum rem reiciendis minus itaque vitae?
+            </p>
+        </div>
+    </div>
+</body>
+</html>

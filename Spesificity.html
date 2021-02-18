@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spesificity</title>
+    <style>
+        #id-bobot{
+            color: royalblue;
+        }
+
+        .class-bobot{
+            color: salmon;
+        }
+
+        .wrapper .class-bobot{
+            color: teal;
+        }
+
+        .class-important{
+            color: chocolate !important;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Spesificity
+    </h1>
+    <p>!Important > Inline Styling > Id  > Class > Tag</p>
+    <p>10000      > 1000           > 100 > 10    > 1  </p>
+
+    <h1>Contoh Bobot</h1>
+    <h3 id="id-bobot" class="class-bobot" style="color:springgreen;">
+        Contoh Bobot 1 (Inline Styling Menang)
+    </h3>
+    <hr>
+    <h3 id="id-bobot" class="class-bobot">
+        Contoh Bobot 2 (Id Menang)
+    </h3>
+    <hr>
+    <div class="wrapper">
+        <div id="id-bobot">
+            Contoh Bobot 3 (Styling Yang Lebih Spesifik Yang Menang)
+        </div>
+    </div>
+    <hr>
+    <h3 class="class-important" style="color: black;">
+        Contoh Bobot 4 (!Important Menang)
+    </h3>
+</body>
+</html>
