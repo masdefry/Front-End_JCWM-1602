@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    height: 50px;
+    background-color: coral;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card-item{
+    border: 1px solid black;
+    height: 300px;
+    width: 250px;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0px 10px;
+}
+
+.button-close{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.card-item-image{
+    background-color: darkcyan;
+    height: 100px;
+}
+
+.card-item-title{
+    height: 20px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.card-item-text-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.card-item-text{
+    width: 45%;
+    height: 30px;
+    border: 1px solid black;
+}
