@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layouting Exercise</title>
+    <link href="Stylesheets/bootstrap-4.6.0-dist/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <div>
+        <div class="row p-0 m-0"> <!-- Container Header -->
+            <div class="bg-dark col-sm-12 col-md-3" style="height: 100px;">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100px">
+                    <h3 class="text-white">
+                        Header
+                    </h3>
+                </div>
+            </div>
+            <div class="bg-danger d-block d-sm-none d-md-block col-md-9" style="height: 100px;">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100px;">
+                    <h3 class="text-white">
+                        Menu
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JUMBOTRON SECTION -->
+    <div class="p-0 m-0 bg-primary d-flex justify-content-center align-items-center" style="height: 50vh;">
+        <h3>
+            Hero
+        </h3>
+    </div>
+
+    <!-- CONTENT SECTION - DESKTOP -->
+    <div class="d-block d-sm-none d-md-block">
+        <div class="row p-0 m-0">
+            <div class="col-12 col-md-6 bg-dark d-flex justify-content-center align-items-center" style="height: 350px;">
+                <!-- Main -->
+                <h3 class="text-white">
+                    Main
+                </h3>
+            </div>
+            <div class="col-12 col-md-6 bg-warning row p-0 m-0" style="height: 350px;">
+                <!-- Image & Extra -->
+                <div class="col-12 col-md-6 d-none d-md-block bg-light">
+
+                </div>
+                <div class="col-12 col-md-6 bg-secondary p-0 m-0">
+                    <div class="bg-success" style="height: 50%;">
+
+                    </div>
+                    <div class="bg-info" style="height: 50%;">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-0 m-0 bg-warning d-flex justify-content-center align-items-center" style="height: 100px;">
+            <h3>
+                Banner
+            </h3>
+        </div>
+    </div>
+
+    <!-- CONTENT SECTION - TABLET -->
+    <div class="d-none d-sm-block d-md-none">
+        <div class="row p-0 m-0">
+            <div class="bg-danger col-3 d-flex justify-content-center align-items-center" style="height: 1000px;">
+                <h3 class="text-white">
+                    Menu
+                </h3>
+            </div>
+            <div class="col-9 p-0 m-0">
+                <div class="bg-dark d-flex justify-content-center align-items-center" style="height: 400px;">
+                    <h3 class="text-white">
+                        Main
+                    </h3>
+                </div>
+                <div class="bg-warning d-flex justify-content-center align-items-center" style="height: 300px;">
+                    <h3 class="text-white">
+                        Banner
+                    </h3>
+                </div>
+                <div class="row p-0 m-0">
+                    <div class="col-6 bg-primary" style="height: 300px;">
+
+                    </div>
+                    <div class="col-6 bg-success" style="height: 300px;">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
